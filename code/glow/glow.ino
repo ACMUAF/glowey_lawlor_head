@@ -32,7 +32,7 @@ void setup()
 
 void loop()
 {
-  if(!digitalRead(8))
+  if(!digitalRead(4))
   {
     for(int ii=0;ii<3;++ii)
       glow(color);
